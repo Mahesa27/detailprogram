@@ -1,6 +1,18 @@
 #include<iostream>
 using namespace std;
-
+void cek(){
+	int ganjil= 0, genap = 0, prima= 0, cekPrima;
+	int x=1, y=1, z=1, masukan;
+	cout<<"Berapa angka yang ingin diinput = ";    cin>>masukan;
+	
+	int arrayNilai[masukan];
+	int arrayGanjil[masukan];
+	int arrayGenap[masukan];
+	int arrayPrima[masukan];
+	int *pointGanjil = arrayGanjil;
+	int *pointGenap = arrayGenap;
+	int *pointPrima = arrayPrima;
+	int *pointNilai = arrayNilai;
 int main(){
 
 return 0;
